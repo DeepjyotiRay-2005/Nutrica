@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥗 Nutrica — Your Personal AI Nutritionist
 
-## Getting Started
+**Nutrica** is a full-stack AI-powered nutrition and fitness web app that helps users generate personalized meal plans, track their daily nutrition intake, and monitor their fitness progress — all in one seamless dashboard.
 
-First, run the development server:
+## 🔗 Live Demo  
+Coming Soon...
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 **Authentication**: Login and register using email/password or Google OAuth.
+- 📋 **User Profile Setup**: Collects essential details like age, height, weight, gender, fitness goals (e.g., muscle gain, fat loss), and dietary preferences (e.g., vegan).
+- 🧠 **AI Meal Planner**: Generates custom meal plans based on user goals using the **Gemini API** — fully editable and personalized.
+- 🍽️ **Meal Logging**: Add meals consumed throughout the day with calorie, protein, carb, and fat tracking.
+- 📊 **Nutrition Dashboard**: Visual breakdown of daily calorie targets and macros using intuitive UI components.
+- 📈 **Progress Tracker**: Monitor weight trends over time to stay aligned with fitness goals.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tech Stack
+**Frontend :** Next.js, TypeScript, TailwindCSS, shadcn/ui
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Backend & Database :** Supabase
 
-## Learn More
+**AI and Meal Generator :** GeminiAPI
 
-To learn more about Next.js, take a look at the following resources:
+## 🚧 Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ AI meal generation with Gemini API  
+- 🔄 Integration with food database API  
+- 📱 Mobile responsiveness  
+- 🧾 Export/share meal plans  
+- 🔔 Reminders & habit tracking
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Folder Structure
+Will update soon...
